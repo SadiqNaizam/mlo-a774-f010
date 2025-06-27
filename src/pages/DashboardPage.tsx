@@ -19,7 +19,7 @@ const DashboardPage = () => {
   console.log('DashboardPage loaded');
 
   return (
-    <div className="flex flex-col min-h-screen bg-muted/40">
+    <div className="flex flex-col min-h-screen bg-background">
       {/* The Header component handles the avatar and dropdown menu for logout */}
       <Header isLoggedIn={true} />
 
